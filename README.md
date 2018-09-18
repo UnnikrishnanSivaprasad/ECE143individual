@@ -8,14 +8,22 @@ The order of when the towers come online is important. Once a tower has acquired
 
 
 ● All rectangular sections have integer-based corners.
+
 ● All rectangular sections must be contained in the overall rectangular footprint.
+
 ● The height and width of each rectangular section is sampled from a uniform
 distribution.
+
 ● Positions of the windows are also determined by uniform random distribution.
+
 ● All footprints must be rectangles (not general polygons).
+
 ● When a new tower comes online, if its coverage rectangle intersects the pre-existing
 composite footprint, then that new tower’s coverage is trimmed such that its maximum remaining coverage area is retained (see sequential diagram below).
 Write a detailed Jupyter notebook that implements a solution to this problem such that the user can supply the following overall size of desired coverage footprint and then determine the following:
+
 ● Given an overall desired coverage footprint and a sequence of ​n communications towers, what is the resulting resolved coverage?
+
 ● What is the total area of coverage relative to the desired total coverage area of the original footprint? That is, are there any gaps in coverage?
+
 ● On average, how many communications towers are required before full coverage is obtained?
