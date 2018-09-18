@@ -1,7 +1,12 @@
 # ECE143individual
+
 Analysis of Ad-Hoc Communications Network
+
 You have been asked to help with planning an ad-hoc communications network over a large rectangular region. Each individual tower can monitor a rectangular subsection of a specific width and height. The main problem is that none of the individual towers can provide coverage for the entire region of interest. Communications towers are unreliable and are put up independently and at random. You have no control over where or how big a tower’s footprint is placed. Importantly, due to technical issues such as cross-talk, no individual rectangular subsection can have multiple towers providing coverage for it. That is, there can be no overlap between any pair of rectangular subsections provided by the two respective towers. In any case, the desire is to maximize the coverage area of any available communications tower.
+
 The order of when the towers come online is important. Once a tower has acquired its rectangular section, no subsequent tower can overlap that section. You may assume the following for this problem:
+
+
 ● All rectangular sections have integer-based corners.
 ● All rectangular sections must be contained in the overall rectangular footprint.
 ● The height and width of each rectangular section is sampled from a uniform
